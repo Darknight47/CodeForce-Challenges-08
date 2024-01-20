@@ -25,6 +25,16 @@ For each test case, output n integers a1,a2,a3,…,an (1 ≤ ai ≤ 10^9).
 It can be proved that the solution exists for any n. 
 If there are multiple solutions, output any of them.
 
+Input:
+3
+3
+6
+7
+
+Output:
+6 8 12
+7 11 14 20 22 100
+9 15 18 27 36 90 120
 """
 cases = int(input())
 for i in range(cases):
